@@ -16,7 +16,27 @@ print(newSentence.rindex("practice"))
 ###############################################Review############################################################
 #####################################challenge 1################################################################
 # Create a list with 5 elements, inside the variable my_list. You can include strings, booleans, numbers, etc.
-my_list = ["bay","ddaa", 34, 56]
+my_list = ["bay","ddaa", 34, 56, 78, 89, 102]
+my_list.append("jewelry")
+print(my_list)
+my_list.pop() 
+# pop() removes from the end
+print(my_list)
+my_list.remove("ddaa")
+# removes an item at a certain index
+print(my_list)
+my_list.insert(3, "bobba bobba")
+print(my_list)
+my_list.insert(1, "cat")
+my_list.insert(2, "dog")
+print(my_list)
+
+my_list2 = [ "cat", "dog", "cow", 88, "summer", 778, "spring"]
+print(my_list2)
+
+# my_list3 = my_list + my_list2
+# my_list3 = my_list.extend(my_list2)
+# print(my_list3)
 
 
 # Add the element "motorcycle" to the following list of means of transportation:
@@ -39,28 +59,32 @@ luckyNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15]
 friends = ["Kevin", "Karen", "jim", "oscar", "tim", "lord tennyson"]
 # instructions:
 ######join both lists together in a new list
-
+newList4 = luckyNumbers + friends
 ###### print the new list out
-# print(newList2)
+print(newList4)
 ###### print out the first item in the list
-
+print(newList4[1])
 ###### remove the last item of the new list
-
+newList4.pop()
 ###### print the new list out without the last item
-
+print(newList4)
 ###### add three more items to the end of the list
-
+newList4.append("dog")
+newList4.append("cat")
+newList4.append("time")
+print(newList4)
 ###### print the last item in the new list
-
+print(newList4[21])
 ###### sort the list
-
+print(luckyNumbers.sort())
 ###### find a way to insert a new item at the 3rd position of the list
-
+newList4.insert(3, "tree")
 ###### print the new list out
-
+print(newList4)
 ##### reverse the list
-
+newList4.reverse()
 ###### print the new list out
+print('Reversed List:', newList4)
 ###### print out the length of the new list
 
 #####################################challenge 2#######################################################
