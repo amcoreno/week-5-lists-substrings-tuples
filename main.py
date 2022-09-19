@@ -86,7 +86,7 @@ newList4.reverse()
 ###### print the new list out
 print('Reversed List:', newList4)
 ###### print out the length of the new list
-
+print(len(newList4))
 #####################################challenge 2#######################################################
 # Join the following list into a string, separating each item with a space. Use the appropriate list/string method, and display the result.
 word_list = ["Simple", "is", "better", "than", "complex."]
